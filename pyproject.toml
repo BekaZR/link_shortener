@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "url-shorturl"
+version = "0.1.0"
+description = ""
+authors = ["Beknazar Abdyldaev <abdyldaev.duff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "url_shorturl"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyshorteners = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
